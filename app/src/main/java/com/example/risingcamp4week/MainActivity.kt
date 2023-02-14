@@ -26,67 +26,14 @@ class MainActivity : AppCompatActivity() {
 
         Thread(){
             while(true){
-                binding.mob1.setText("스포아")
-                Thread.sleep(1000)
-                binding.mob1.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob1.setText("좀비버섯")
-                Thread.sleep(1000)
-            }
-        }.start()
 
-        Thread(){
-            while(true){
-                binding.mob2.setText("스포아")
+//                binding.mob1.setImageResource(R.drawable.spor)
+//                Thread.sleep(1000)
+                binding.mob1.setImageResource(R.drawable.mushroom)
                 Thread.sleep(1000)
-                binding.mob2.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob2.setText("좀비버섯")
-                Thread.sleep(1000)
-            }
-        }.start()
+//                binding.mob1.setImageResource(R.drawable.zombiemushroom)
+//                Thread.sleep(1000)
 
-        Thread(){
-            while(true){
-                binding.mob3.setText("스포아")
-                Thread.sleep(1000)
-                binding.mob3.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob3.setText("좀비버섯")
-                Thread.sleep(1000)
-            }
-        }.start()
-
-        Thread(){
-            while(true){
-                binding.mob4.setText("스포아")
-                Thread.sleep(1000)
-                binding.mob4.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob4.setText("좀비버섯")
-                Thread.sleep(1000)
-            }
-        }.start()
-
-        Thread(){
-            while(true){
-                binding.mob5.setText("스포아")
-                Thread.sleep(1000)
-                binding.mob5.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob5.setText("좀비버섯")
-                Thread.sleep(1000)
-            }
-        }.start()
-
-        Thread(){
-            while(true){
-                binding.mob6.setText("스포아")
-                Thread.sleep(1000)
-                binding.mob6.setText("주황버섯")
-                Thread.sleep(1000)
-                binding.mob6.setText("좀비버섯")
-                Thread.sleep(1000)
             }
         }.start()
     }
@@ -107,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         super.onStop()
     }
 
-    
+
 
 
 }

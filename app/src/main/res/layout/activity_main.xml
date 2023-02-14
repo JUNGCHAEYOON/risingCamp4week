@@ -11,101 +11,78 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
+        android:layout_height="120dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <ImageView
             android:id="@+id/mob1"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="220dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="20dp" />
-
-        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
             android:id="@+id/mob2"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="220dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
             android:id="@+id/mob3"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="220dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="20dp" />
-
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <ImageView
             android:id="@+id/mob4"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="20dp" />
-        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
             android:id="@+id/mob5"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="20dp" />
-        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
             android:id="@+id/mob6"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
-            android:padding="10dp"
-            android:text="주황버섯"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="20dp" />
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/mob7"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/mob8"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/mob9"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/spor"
+            android:layout_weight="1" />
     </LinearLayout>
 
 
