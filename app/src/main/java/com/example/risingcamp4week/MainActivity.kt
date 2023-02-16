@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mushAnimation : AnimationDrawable      // 주황버섯 애니메이션
     private lateinit var zombAnimation : AnimationDrawable      // 주황버섯 애니메이션
     private lateinit var warrAnimation : AnimationDrawable      // 전사 애니메이션
+    private var point : Int = 0                                 // 획득 점수
     private lateinit var binding : ActivityMainBinding          //1
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,10 +26,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)                            //3
 
         /* 변수 설정 */
-        val warr0 = binding.warr0   //전사
-        val mob1 = binding.mob1     //스포아
-        val mob2 = binding.mob2     //주황버섯
-        val mob3 = binding.mob3     //좀비버섯
+        val warr0 = binding.ivWarr0     //전사
+        val mob1 = binding.ivMob1       //스포아
+        val mob2 = binding.ivMob2       //주황버섯
+        val mob3 = binding.ivMob3       //좀비버섯
+        val tvpoint = binding.tvPoint     //점수
+
+        // 점수 초기화
+        tvpoint.text = point.toString()
 
         /* 애니메이션 적용 */
         Glide.with(this).load(R.drawable.warr_move).into(warr0)
@@ -99,6 +104,8 @@ class MainActivity : AppCompatActivity() {
         mob1.setOnClickListener {
             if(mob1.getTag() == "mush"){
                 Toast.makeText(this, "잡았다!", Toast.LENGTH_SHORT).show()
+                point += 1
+                tvpoint.text = point.toString()
             }else{
                 Toast.makeText(this, "실패!", Toast.LENGTH_SHORT).show()
             }
@@ -109,6 +116,8 @@ class MainActivity : AppCompatActivity() {
         mob2.setOnClickListener {
             if(mob2.getTag() == "mush"){
                 Toast.makeText(this, "잡았다!", Toast.LENGTH_SHORT).show()
+                point += 1
+                tvpoint.text = point.toString()
             }else{
                 Toast.makeText(this, "실패!", Toast.LENGTH_SHORT).show()
             }
@@ -119,6 +128,8 @@ class MainActivity : AppCompatActivity() {
         mob3.setOnClickListener {
             if(mob3.getTag() == "mush"){
                 Toast.makeText(this, "잡았다!", Toast.LENGTH_SHORT).show()
+                point += 1
+                tvpoint.text = point.toString()
             }else{
                 Toast.makeText(this, "실패!", Toast.LENGTH_SHORT).show()
             }

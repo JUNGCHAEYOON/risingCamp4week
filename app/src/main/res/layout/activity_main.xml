@@ -11,7 +11,7 @@
 
 
     <ImageView
-        android:id="@+id/mob1"
+        android:id="@+id/iv_mob1"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         android:src="@drawable/spor_move" />
 
     <ImageView
-        android:id="@+id/mob2"
+        android:id="@+id/iv_mob2"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
         android:src="@drawable/mush_move" />
 
     <ImageView
-        android:id="@+id/mob3"
+        android:id="@+id/iv_mob3"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="220dp"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/warr0"
+        android:id="@+id/iv_warr0"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,4 +49,17 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginBottom="220dp"
         android:src="@drawable/warr_move" />
+
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="점수"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
