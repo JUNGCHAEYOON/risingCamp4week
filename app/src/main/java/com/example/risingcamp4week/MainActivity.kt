@@ -13,10 +13,6 @@ import com.example.risingcamp4week.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var sporAnimation : AnimationDrawable      // 스포아 애니메이션
-    private lateinit var mushAnimation : AnimationDrawable      // 주황버섯 애니메이션
-    private lateinit var zombAnimation : AnimationDrawable      // 주황버섯 애니메이션
-    private lateinit var warrAnimation : AnimationDrawable      // 전사 애니메이션
     private var point : Int = 0                                 // 획득 점수
     private lateinit var binding : ActivityMainBinding          //1
 
