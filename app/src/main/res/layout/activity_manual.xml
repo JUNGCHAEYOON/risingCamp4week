@@ -5,23 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ManualActivity"
-    android:background="@drawable/henesis">
+    android:background="@drawable/intro">
 
     <ImageView
         android:id="@+id/iv_spor_manual"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/spor_move" />
 
     <ImageView
         android:id="@+id/iv_mush_sample"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop = "180dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop = "30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,20 +29,81 @@
 
     <ImageView
         android:id="@+id/iv_zomb_sample"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/zomb_move" />
+
+    <ImageView
+        android:id="@+id/iv_ibul_sample"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ibul_move" />
+
+    <ImageView
+        android:id="@+id/iv_kuzz_sample"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kuzz_move" />
+
+    <ImageView
+        android:id="@+id/iv_cold_sample"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cold_move" />
+
+    <ImageView
+        android:id="@+id/iv_juni_sample"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_pepe_sample"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pepe_move" />
+
+    <ImageView
+        android:id="@+id/iv_dark_sample"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark_move" />
 
     <TextView
         android:id="@+id/tv_manual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#cc3300"
+        android:textColor="@color/orange"
         android:fontFamily="@font/maple_bold"
+        android:layout_marginTop="200dp"
         android:textSize="25dp"
         android:text="@string/manual"
         android:padding="30dp"
@@ -56,9 +117,9 @@
         android:id="@+id/start_btn_toMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/back_radius"
-        android:textColor="#cc3300"
+        android:textColor="@color/orange"
         android:fontFamily="@font/maple_bold"
         android:textSize="25dp"
         android:padding="30dp"
@@ -66,4 +127,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_manual" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

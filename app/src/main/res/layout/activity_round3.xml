@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/elnas"
+    tools:context=".round3Activity">
+
+
+    <ImageView
+        android:id="@+id/iv_warr3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/warr3_move" />
+
+    <TextView
+        android:id="@+id/tv_point_round3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/maple_light"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_point2_round3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/maple_light"
+        android:layout_marginStart="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="점"
+        app:layout_constraintStart_toEndOf="@+id/tv_point_round3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    1-->
+    <ImageView
+        android:id="@+id/iv_mob1_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob2_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob1_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob3_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob1_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob4_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob2_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob5_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob3_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob6_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob4_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob7_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob5_round3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juni_move" />
+<!--2-->
+    <ImageView
+        android:id="@+id/iv_mob8_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob1_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob9_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob8_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob2_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob10_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob8_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob3_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob11_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob9_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob4_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob12_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob10_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob5_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob13_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob11_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob6_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob14_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob12_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob7_round3"
+        app:srcCompat="@drawable/juni_move" />
+<!--    3-->
+
+    <ImageView
+        android:id="@+id/iv_mob15_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob8_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob16_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob15_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob9_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob17_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob15_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob10_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob18_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        app:layout_constraintStart_toEndOf="@+id/iv_mob17_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob12_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob19_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob16_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob11_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob20_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob18_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob14_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob21_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob19_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob13_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+<!--4-->
+    <ImageView
+        android:id="@+id/iv_mob22_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob15_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob23_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob22_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob16_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob24_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob22_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob17_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob25_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        app:layout_constraintStart_toEndOf="@+id/iv_mob24_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob18_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob26_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob23_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob19_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob27_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob25_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob20_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob28_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob26_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob21_round3"
+        app:srcCompat="@drawable/juni_move" />
+<!--    5-->
+    <ImageView
+        android:id="@+id/iv_mob29_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob22_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob30_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob33_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob27_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob31_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob29_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob23_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob32_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob34_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob28_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob33_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob35_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob25_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob34_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob31_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob26_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob35_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob29_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob24_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+<!--6-->
+    <ImageView
+        android:id="@+id/iv_mob36_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob29_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob37_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob38_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob30_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob38_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob39_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob33_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob39_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob36_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob35_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob40_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob41_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob32_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob41_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob42_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob34_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob42_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob36_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob31_round3"
+        app:srcCompat="@drawable/juni_move" />
+<!--    7-->
+    <ImageView
+        android:id="@+id/iv_mob43_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob36_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob44_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob45_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob37_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob45_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob46_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob38_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob46_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mob43_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob39_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob47_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob48_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob40_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob48_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob49_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob41_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <ImageView
+        android:id="@+id/iv_mob49_round3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_mob43_round3"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mob42_round3"
+        app:srcCompat="@drawable/juni_move" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/maple_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:text="22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="120dp"
+        android:fontFamily="@font/maple_light"
+        android:text="초"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

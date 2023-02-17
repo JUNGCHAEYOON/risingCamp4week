@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">risingCamp4week</string>
-    <string name="manual">스포아➝주황버섯➝좀비버섯\n순서대로 변화하며 각 변화간 시간은 \n 2초입니다.\n 주황버섯이 되었을때 터치하여 점수를 올려보세요!</string>
+    <string name="manual">스포아 ➝ 주황버섯 ➝ 좀비버섯\n이블아이 ➝ 커즈아이 ➝ 콜드아이\n주니어 페페➝페페➝다크페페\n\n순서대로 변화하며 각 변화간 시간은 \n2초입니다.\n주황버섯, 커즈아이, 페페가 되었을때 터치하여 점수를 올려보세요!\n절반 이상의 몬스터를 잡지 못하면 실패!\n총 3라운드 입니다.</string>
 </resources>
