@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">risingCamp4week</string>
+    <string name="manual">스포아➝주황버섯➝좀비버섯\n순서대로 변화하며 각 변화간 시간은 \n 2초입니다.\n 주황버섯이 되었을때 터치하여 점수를 올려보세요!</string>
 </resources>
