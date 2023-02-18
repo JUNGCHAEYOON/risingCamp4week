@@ -5,6 +5,7 @@
 * Thread 사용
 
 ### 시연
+* 클릭시 유튜브 링크로 이동 </br>
 [![Video Label](https://user-images.githubusercontent.com/108243290/219848858-1cdfe1a6-012b-4f43-b2db-063d0d921963.jpg)](https://www.youtube.com/watch?v=VrzmVG0XtmQ)
 </br>
 
